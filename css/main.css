@@ -1,0 +1,78 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+h1,
+h2 {
+  font-size: var(--headingSize);
+  color: var(--headingColor);
+  font-weight: var(--bolderFontWeight);
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+.card {
+  max-width: 21.875rem;
+  width: 100%;
+  height: 23.375rem;
+  max-height: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: white;
+  border-radius: var(--radius);
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0rem 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.55);
+  -webkit-box-shadow: 0rem 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.55);
+  -moz-box-shadow: 0rem 3.125rem 6.25rem -1.25rem rgba(8, 70, 94, 0.55);
+}
+.cardTopBackground {
+  width: 100%;
+  height: 8.75rem;
+  background-color: var(--cardBackgound);
+  background-image: url(../images/bg-pattern-card.svg);
+  mix-blend-mode: normal;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+.card img {
+  border-radius: 50%;
+  transform: translate(0, 50%);
+  border: 0.3125rem solid #ffffff;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4.625rem;
+}
+.heading .age {
+  font-weight: var(--normalFontWeight);
+}
+.heading .city {
+  font-weight: var(--normalFontWeight);
+  font-size: 0.875rem;
+}
+hr {
+  color: var(--hrColor);
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 15.5625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats p {
+  text-transform: capitalize;
+  font-size: 0.625rem;
+  letter-spacing: 0.0938rem;
+}

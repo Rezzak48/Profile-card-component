@@ -3,9 +3,6 @@
   padding: 0;
   margin: 0;
 }
-body {
-  font-family: "Kumbh Sans", sans-serif;
-}
 :root {
   /* ## Colors */
   /* ### Primary */
@@ -15,85 +12,21 @@ body {
   --bodyTextColor: hsl(228, 10%, 47%);
 
   /* ### Neutral */
-  --Darkgray: hsl(0, 0%, 59%);
+  --hrColor: hsl(0, 0%, 59%);
 
   /* ## Typography */
-  --headingSize: 18px;
+  --headingSize: 1.125rem;
   --normalFontWeight: 400;
   --bolderFontWeight: 700;
-}
-h1,
-h2 {
-  font-size: var(--headingSize);
-  color: var(--headingColor);
-  font-weight: var(--bolderFontWeight);
-  margin: 0;
-  padding-bottom: 8px;
-}
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
+  --radius: 0.9375rem;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
   background-color: var(--pageBackgound);
-  /* background-repeat: no-repeat;
-  background-position: left 204.71px top 669.84px;
-  background-image: url(../images/bg-pattern-top.svg); */
-}
-
-.card {
-  width: 350px;
-  height: 374px;
-  background-color: white;
-  border-radius: 10px;
-}
-.cardTopBackground {
-  width: 100%;
-  height: 140px;
-  background-color: var(--cardBackgound);
-  background-image: url(../images/bg-pattern-card.svg);
-  mix-blend-mode: normal;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-.card img {
-  border-radius: 50%;
-  transform: translate(0, 50%);
-  border: 5px solid #ffffff;
-}
-.heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 74px;
-}
-.heading .age {
-  font-weight: var(--normalFontWeight);
-}
-.heading .city {
-  font-weight: var(--normalFontWeight);
-  font-size: 14px;
-}
-hr {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-.stats {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  max-width: 249px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.stats p {
-  text-transform: capitalize;
-  font-size: 10px;
-  letter-spacing: 1.5px;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-blend-mode: normal;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
 }
