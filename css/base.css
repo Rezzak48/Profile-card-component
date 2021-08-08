@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+:root {
+  /* ## Colors */
+  /* ### Primary */
+  --pageBackgound: hsl(185, 75%, 39%);
+  --cardBackgound: hsl(183, 62%, 54%);
+  --headingColor: hsl(229, 23%, 23%);
+  --bodyTextColor: hsl(228, 10%, 47%);
+
+  /* ### Neutral */
+  --Darkgray: hsl(0, 0%, 59%);
+
+  /* ## Typography */
+  --headingSize: 18px;
+  --normalFontWeight: 400;
+  --bolderFontWeight: 700;
+}
+h1,
+h2 {
+  font-size: var(--headingSize);
+  color: var(--headingSize);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 350px;
+  height: 374px;
+  /* background-color: yellow; */
+}
