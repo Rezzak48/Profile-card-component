@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Profile card component
 
 This is a solution to the [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -23,33 +23,30 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./DesignScreenshots/DesktopScreen.png)
-![](./DesignScreenshots/MobileVersion.png) -->
+![](./DesignScreenshots/DesktopScreen.png)
+![](./DesignScreenshots/MobileVersion.png)
 
 ### Links
 
-<!-- - Live Site URL: [Live Site URL:](https://gallant-yonath-3220a6.netlify.app/)
-- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-bcn5lEUwB) -->
+- Live Site URL: [Live Site URL:](https://thirsty-engelbart-a8a601.netlify.app/)
+- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/profile-card-componment-html-and-css-Vk_EXSC04)
 
 ## My process
 
 ### Built with
 
-<!-- - Semantic HTML5 markup
+- Semantic HTML5 markup
 - CSS custom properties
 - Flex box
-- Mobile-first workflow -->
 
 ### What I learned
 
-<!-- I practiced more about media queries and flex box and how to use them more wisely.
-I learned how to use netlify to host my repo.
-I learned about doc to make this readme file
-I learned to save and push files to github each time I did changes on any feature -->
+I learned more about box shadow it was a cool thing, had basic idea on it but now more about and it structure which is :
+box-shadow: offset-x | offset-y | blur-radius | spread-radius | color
 
 ## Author
 
 <!-- - Website - [](NotAvailableForNow) -->
-<!--
+
 - Frontend Mentor - [@Rezzak](https://www.frontendmentor.io/profile/errazakallah31)
-- Twitter - [@Rezzak_48](https://twitter.com/Rezzak_48) -->
+- Twitter - [@Rezzak_48](https://twitter.com/Rezzak_48)
